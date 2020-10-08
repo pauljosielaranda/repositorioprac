@@ -51,7 +51,7 @@
  
  .search-container{
      height: 100%;
-     background-image:url(C:/Users/josie/Downloads/pex.jpg);
+     background-image:url ("./pex.jpg")
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
