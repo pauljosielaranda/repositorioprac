@@ -1,0 +1,142 @@
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ 
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
+ body {
+     line-height: 1;
+ }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ body{
+     display: flex;
+     height: 100vh;
+     flex-direction: column;
+ }
+ 
+ .search-container{
+     height: 100%;
+     background-image:url(C:/Users/josie/Downloads/pex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+ svg{
+     fill: currentColor;
+     color: whitesmoke;
+     height: 20px;
+     width: 83px;
+     margin-top: 0;
+ }
+
+ .profile-pic{
+     height: 2.9rem;
+     width: 3rem;
+     border-radius: 30px;
+     margin-right: 2rem;
+ }
+
+ .header-search{
+     
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 0;
+ }
+
+ p{
+   color: whitesmoke;
+   margin-left: 2rem;
+ }
+ p.saludo{
+     margin-top: 1rem;
+     margin-bottom: 1.5rem;
+     font-size: 1.2rem;
+ }
+
+ p.titulo1{
+     font-size: 2.5rem;
+     line-height: 0.9;
+ }
+ p.titulo2{
+     font-size: 2.5rem;
+     color: rgb(228, 228, 96);
+
+ }
+ input{
+     margin-top: 1.5rem;
+     margin-left: 2rem;
+     width: 83%;
+     height: 1rem;
+     border-radius: 25px;
+     padding-top: 0.5rem;
+     padding-bottom: 0.5rem;
+     padding-left: 25px;
+ }
+
+ .search-input{
+     position: relative;
+     width: 91%;
+ }
+
+ input:focus{
+     outline: 0;
+ }
+
+ .svg-search{
+     position: absolute;
+     bottom:0;
+     padding-bottom: 10px;
+     left: 20px;
+     fill: currentColor;
+     color: rgb(179, 173, 173);
+ }
+ h2{
+     height: 35;
+     width: 50%;
+     margin-right: auto;
+     margin-left:auto;
+     margin-top: 0;
+     background-color: darkorange;
+     font-size: 1.5rem;
+     color: black;
+ }
+ 
